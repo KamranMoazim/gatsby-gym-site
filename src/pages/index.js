@@ -1,6 +1,7 @@
 import React, {useRef, useState} from "react"
 import { withPrefix,Link } from "gatsby"
 // import { StaticImage } from "gatsby-plugin-image"
+import Carousel from 'react-material-ui-carousel'
 
 import Helmet from "react-helmet"
 // import YouTubePlayer from “react-player/lib/players/YouTube”;
@@ -258,7 +259,8 @@ const IndexPage = () => {
                     <h2 className="title">YOUR RESULTS ARE <span className="theme_text">OUR RESULTS</span></h2>
                 </div>
                 <div className="col-lg-11 col-xl-10">
-                    <div className="owl-carousel slider">
+                    {/* <div className="owl-carousel slider"> */}
+                    <Carousel>
                         <div className="item">
                             <div className="row g-0">
                                 <div className="col-lg-6">
@@ -307,7 +309,8 @@ const IndexPage = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </Carousel>
+                    {/* </div> */}
                 </div>
             </div>
         </div>
