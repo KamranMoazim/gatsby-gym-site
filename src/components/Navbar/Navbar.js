@@ -9,11 +9,7 @@ import Logo from "../../images/logo.svg"
 
 function Navbar() {
     return (
-
-
         <>
-
-
 <Helmet>
     <meta charset="utf-8"/>
     <meta name="description" content="DG fitness & Lifestyle"/>
