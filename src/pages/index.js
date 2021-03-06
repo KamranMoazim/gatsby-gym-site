@@ -5,6 +5,11 @@ import { withPrefix,Link } from "gatsby"
 import Helmet from "react-helmet"
 // import YouTubePlayer from “react-player/lib/players/YouTube”;
 // import ReactPlayer from "react-player";
+import '../css/bootstrap.min.css'
+import '../css/bootstrap.rtl.min.css'
+import '../css/helper.css'
+import '../css/responsive.css'
+import '../css/style.css'
 
 import Navbar from '../components/Navbar/Navbar.js'
 import Footer from '../components/Footer/Footer.js'
@@ -27,12 +32,6 @@ import client2 from '../images/client2.jpg'
 import quote from '../images/quote.svg'
 
 import favIcon from '../images/favicon.png'
-
-import '../css/bootstrap.min.css'
-import '../css/bootstrap.rtl.min.css'
-import '../css/helper.css'
-import '../css/responsive.css'
-import '../css/style.css'
 
 
 // import Layout from "../components/layout"
